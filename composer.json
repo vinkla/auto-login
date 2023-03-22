@@ -1,0 +1,28 @@
+{
+    "name": "vinkla/local-login",
+    "description": "Login automagically as WordPress super admin in local environment",
+    "license": "MIT",
+    "type": "wordpress-muplugin",
+    "keywords": [
+        "admin",
+        "local",
+        "login",
+        "plugin",
+        "wordplate",
+        "wordpress"
+    ],
+    "authors": [
+        {
+            "name": "Vincent Klaiber",
+            "email": "hello@doubledip.se"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist"
+    }
+}
