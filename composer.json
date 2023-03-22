@@ -1,6 +1,6 @@
 {
     "name": "vinkla/local-login",
-    "description": "Login automagically as WordPress super admin in local environment",
+    "description": "Enable automatic login within a local WordPress environment",
     "license": "MIT",
     "type": "wordpress-muplugin",
     "keywords": [

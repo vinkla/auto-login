@@ -9,7 +9,7 @@
 
 /*
  * Plugin Name: Local Login
- * Description: Login automagically as WordPress super admin in local environment.
+ * Description: Enable automatic login within a local WordPress environment.
  * Author: Vincent Klaiber
  * Author URI: https://github.com/vinkla
  * Version: 1.0.0
