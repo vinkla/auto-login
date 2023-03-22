@@ -12,15 +12,15 @@
  * Description: Enable automatic login within a local WordPress environment.
  * Author: Vincent Klaiber
  * Author URI: https://github.com/vinkla
- * Version: 1.0.0
+ * Version: 1.0.1
  * Plugin URI: https://github.com/vinkla/local-login
  * GitHub Plugin URI: vinkla/local-login
  */
 
-namespace Vinkla\LocalLogin;
+namespace LocalLogin;
 
 // Login locally as super admin.
-function login()
+function local_login()
 {
     $id = 1;
 
@@ -46,4 +46,4 @@ function login()
     }
 }
 
-add_action('init', __NAMESPACE__ . '\login');
+add_action('init', __NAMESPACE__ . '\local_login');
