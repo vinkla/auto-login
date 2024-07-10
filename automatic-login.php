@@ -6,20 +6,20 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @see https://github.com/vinkla/local-login
+ * @see https://github.com/vinkla/automatic-login
  */
 
 /*
- * Plugin Name: Local Login
+ * Plugin Name: Automatic Login
  * Description: Enable automatic login within a local WordPress environment.
  * Author: Vincent Klaiber
  * Author URI: https://github.com/vinkla
  * Version: 1.0.1
- * Plugin URI: https://github.com/vinkla/local-login
- * GitHub Plugin URI: vinkla/local-login
+ * Plugin URI: https://github.com/vinkla/automatic-login
+ * GitHub Plugin URI: vinkla/automatic-login
  */
 
-namespace LocalLogin;
+namespace AutomaticLogin;
 
 // Login locally as super admin.
 function local_login()
