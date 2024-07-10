@@ -1,6 +1,6 @@
 {
-    "name": "vinkla/automatic-login",
-    "description": "Enable automatic login within a local WordPress environment",
+    "name": "vinkla/auto-login",
+    "description": "Enable automagic login within a local WordPress environment",
     "license": "MIT",
     "type": "wordpress-muplugin",
     "keywords": [

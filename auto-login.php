@@ -6,23 +6,23 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @see https://github.com/vinkla/automatic-login
+ * @see https://github.com/vinkla/auto-login
  */
 
 /*
- * Plugin Name: Automatic Login
- * Description: Enable automatic login within a local WordPress environment.
+ * Plugin Name: Auto Login
+ * Description: Enable automagic login within a local WordPress environment.
  * Author: Vincent Klaiber
  * Author URI: https://github.com/vinkla
  * Version: 1.0.1
- * Plugin URI: https://github.com/vinkla/automatic-login
- * GitHub Plugin URI: vinkla/automatic-login
+ * Plugin URI: https://github.com/vinkla/auto-login
+ * GitHub Plugin URI: vinkla/auto-login
  */
 
-namespace AutomaticLogin;
+namespace AutoLogin;
 
 // Login locally as super admin.
-function local_login()
+function login()
 {
     $id = 1;
 
@@ -48,4 +48,4 @@ function local_login()
     }
 }
 
-add_action('init', __NAMESPACE__ . '\local_login');
+add_action('init', __NAMESPACE__ . '\login');
